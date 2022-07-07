@@ -1,0 +1,22 @@
+{
+  "name": "security-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "run": "yarn swc index.ts"
+  },
+  "keywords": [],
+  "author": "QuadriniL",
+  "license": "ISC",
+  "devDependencies": {
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.2.210",
+    "@swc/jest": "^0.2.21",
+    "jest": "^28.1.2"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1"
+  }
+}
