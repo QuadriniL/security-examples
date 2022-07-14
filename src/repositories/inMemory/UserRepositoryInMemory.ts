@@ -1,4 +1,4 @@
-import {User} from "../../Entities/UserEntity";
+import {User} from "../../entities/UserEntity";
 import {IUserRepository} from "../IUserRepository";
 
 export class UserRepositoryInMemory implements IUserRepository {

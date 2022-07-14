@@ -1,7 +1,7 @@
 import bcrypt from 'bcrypt';
 import {ValidatePasswordUseCase} from "./ValidatePasswordUseCase";
-import {UserRepositoryInMemory} from "../repositories/inMemory/UserRepositoryInMemory";
-import {User} from "../Entities/UserEntity";
+import {UserRepositoryInMemory} from "../../../../../repositories/inMemory/UserRepositoryInMemory";
+import {User} from "../../../../../entities/UserEntity";
 
 describe('Validate Password Use Case', () => {
     let sut: ValidatePasswordUseCase;

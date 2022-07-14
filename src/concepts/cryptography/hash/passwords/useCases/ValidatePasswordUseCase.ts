@@ -1,6 +1,6 @@
 import bcrypt from 'bcrypt';
-import {User} from "../Entities/UserEntity";
-import {IUserRepository} from "../repositories/IUserRepository";
+import {User} from "../../../../../entities/UserEntity";
+import {IUserRepository} from "../../../../../repositories/IUserRepository";
 
 export class ValidatePasswordUseCase {
     private hashService;
